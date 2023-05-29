@@ -20,7 +20,6 @@ $dt = new Data();
 $ft->setClassRange(1);
 $ft->setData($data);
 $am = $dt->mean($data);
-echo "data:[" . implode(', ', $data) . "]\n";
 echo '"' . implode('","', ["ClassRange", "MF", "AM", "DIFF", "PDIFF"]) . '"' . "\n";
 for ($i = 1; $i > 0.001; $i -= 0.001) {
     $ft->setClassRange($i);

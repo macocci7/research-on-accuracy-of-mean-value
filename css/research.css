@@ -1,0 +1,44 @@
+body {
+    background-color: #efefef;
+    color: #333333;
+}
+
+.main {
+    width: 800px;
+}
+
+h2 {
+    background-color: #cccccc;
+    color: #444444;
+    padding: 10px;
+}
+
+.subject p.paragraph {
+    margin-left: 24px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-left: 24px;
+}
+
+table caption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3333cc;
+}
+
+tr, td, th {
+    border: 1px #666666 solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.data {
+    border: 1px #666666 solid;
+    background-color: #334477;
+    color: #ffffff;
+    padding: 10px;
+}
